@@ -1,3 +1,5 @@
+#!/bin/bash
+
 export OPENEDX_RELEASE=open-release/ironwood.master
 if [[ ! $OPENEDX_RELEASE ]]; then
     echo "You must define OPENEDX_RELEASE"
